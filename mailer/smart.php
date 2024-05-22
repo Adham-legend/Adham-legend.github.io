@@ -14,9 +14,9 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'Abror842228@gmail.com';                 // Наш логин
-$mail->Password = 'ojhg jxje ikrn payj';                           // Наш пароль от ящика
+$mail->Password = 'AgroLivestock';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
+$mail->Port = 443;                                    // TCP port to connect to
 
 $mail->setFrom('Abror842228@gmail.com', 'AgroLivestock');   // От кого письмо 
 $mail->addAddress('cloudlegend2724@gmail.com');     // Add a recipient
